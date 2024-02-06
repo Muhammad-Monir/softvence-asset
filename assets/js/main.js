@@ -347,12 +347,12 @@
                             }, 200);
                     });
             }),
-            // e("select").niceSelect(),
-            // document.addEventListener("contextmenu", function (e) {
-            //     e.preventDefault();
-            // }),
-            // document.addEventListener("keydown", function (e) {
-            //     123 == e.keyCode && e.preventDefault();
-            // });
+            e("select").niceSelect(),
+            document.addEventListener("contextmenu", function (e) {
+                
+            }),
+            document.addEventListener("keydown", function (e) {
+                
+            });
     });
 })(jQuery);
