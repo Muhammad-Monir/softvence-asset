@@ -2123,7 +2123,7 @@ footer {
     font-size: 140px;
     font-weight: 800;
     line-height: 120%;
-    text-transform: capitalize;
+    text-transform: uppercase;
     color: var(--white);
     white-space: nowrap
 }
