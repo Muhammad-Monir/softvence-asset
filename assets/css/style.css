@@ -1693,6 +1693,7 @@ footer {
 
 .case--studies--area .case--item .img--area img {
     height: 785px;
+    width: 1200px;
     -o-object-fit: cover;
     object-fit: cover;
     -webkit-transform: translateX(-20px);
@@ -1734,9 +1735,9 @@ footer {
 }
 
 .case--studies--area .case--item:hover .img--area img {
-    -webkit-transform: translateX(-170px);
-    -ms-transform: translateX(-170px);
-    transform: translateX(-170px)
+    -webkit-transform: translateX(-200px);
+    -ms-transform: translateX(-200px);
+    transform: translateX(-200px);
 }
 
 .scale--circle {
