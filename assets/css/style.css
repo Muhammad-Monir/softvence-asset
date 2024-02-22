@@ -3298,7 +3298,7 @@ footer {
 
 .related--studies--area .case--item .img--area img {
     height: 700px;
-    width:1200px;
+    width:1200px !important;
     object-fit: cover;
 }
 
