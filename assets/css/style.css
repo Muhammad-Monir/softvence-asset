@@ -3575,7 +3575,7 @@ footer {
 
 .service--agency--area .img--area img {
     height: 846px;
-    width: 538px;
+    width: 538px !important;
     -o-object-fit: cover;
     object-fit: cover
 }
