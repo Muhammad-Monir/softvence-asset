@@ -371,7 +371,8 @@
                 categoriesSpan.forEach((categorispan) => {
                     
                     categorispan.addEventListener('click', (e) => {
-                        var current = e.target.parent();
+                        var current = e.target.parentElement;
+                        console.log(current)
                         if(current.classList.contains('active')){
                             current.classList.remove('active'); 
                         }else{
