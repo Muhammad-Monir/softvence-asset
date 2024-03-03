@@ -356,7 +356,7 @@
 
                 categories.forEach((categori) => {
                     categori.addEventListener('click', ()=> {
-                        this.style.backgroundColor = "#00ab0c";
+                        // this.style.backgroundColor = "#00ab0c";
                         this.classList.toggle('active');
                     })
                 });
