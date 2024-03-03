@@ -350,5 +350,17 @@
             e("select").niceSelect(),
             document.addEventListener("contextmenu", function (e) {}),
             document.addEventListener("keydown", function (e) {});
+
+            function categoryhandle(){
+                var categories = document.querySelectorAll('.contact--popup--wrapper .pop--interest--group label');
+
+                categories.forEach((categori) => {
+                    categori.addEventListener('click', ()=> {
+                        this.style.backgroundColor = "#00ab0c";
+                        this.classList.toggle('active');
+                    })
+                });
+            }
+            categoryhandle();
     });
 })(jQuery);
