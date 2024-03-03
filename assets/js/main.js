@@ -354,33 +354,34 @@
             function categoryhandle() {
                 var categories = document.querySelectorAll('.contact--popup--wrapper .pop--interest--group label');
                 var categoriesSpan = document.querySelectorAll('.contact--popup--wrapper .pop--interest--group label span');
-                console.log(categories);
             
-                categories.forEach((categori) => {
-                    console.log(categori);
-                    categori.addEventListener('click', (e) => {
-                        var current = e.target;
-                        if(current.classList.contains('active')){
-                            current.classList.remove('active'); 
-                        }else{
-                            current.classList.add('active');
-                        }
-                        
+                if(categories){
+                    categories.forEach((categori) => {
+                        console.log(categori);
+                        categori.addEventListener('click', (e) => {
+                            var current = e.target;
+                            if(current.classList.contains('active')){
+                                current.classList.remove('active'); 
+                            }else{
+                                current.classList.add('active');
+                            }
+                            
+                        });
                     });
-                });
-                categoriesSpan.forEach((categorispan) => {
-                    
-                    categorispan.addEventListener('click', (e) => {
-                        var current = e.target.parentElement;
-                        console.log(current)
-                        if(current.classList.contains('active')){
-                            current.classList.remove('active'); 
-                        }else{
-                            current.classList.add('active');
-                        }
+                    categoriesSpan.forEach((categorispan) => {
                         
+                        categorispan.addEventListener('click', (e) => {
+                            var current = e.target.parentElement;
+                            console.log(current  )
+                            if(current.classList.contains('active')){
+                                current.classList.remove('active'); 
+                            }else{
+                                current.classList.add('active');
+                            }
+                            
+                        });
                     });
-                });
+                }
             }
             
             categoryhandle();
