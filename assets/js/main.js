@@ -351,17 +351,17 @@
             document.addEventListener("contextmenu", function (e) {}),
             document.addEventListener("keydown", function (e) {});
 
-            // function categoryhandle() {
-            //     var categories = document.querySelectorAll('.contact--popup--wrapper .pop--interest--group label');
-            //     console.log(categories);
+            function categoryhandle() {
+                var categories = document.querySelectorAll('.contact--popup--wrapper .pop--interest--group label');
+                console.log(categories);
             
-            //     categories.forEach((categori) => {
-            //         categori.addEventListener('click', function() {
-            //             this.classList.toggle('active');
-            //         });
-            //     });
-            // }
+                categories.forEach((categori) => {
+                    categori.addEventListener('click', function() {
+                        this.classList.toggle('active');
+                    });
+                });
+            }
             
-            // categoryhandle();
+            categoryhandle();
     });
 })(jQuery);
