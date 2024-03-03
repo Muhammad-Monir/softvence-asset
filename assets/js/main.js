@@ -357,7 +357,6 @@
             
                 categories.forEach((categori) => {
                     categori.addEventListener('click', (e) => {
-                        e.stopPropagation()
                         this.classList.toggle('active');
                     });
                 });
