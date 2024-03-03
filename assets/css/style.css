@@ -4098,6 +4098,3 @@ footer {
 .contact--popup--wrapper .wpcf7-response-output{
     color: var(--white) !important;
 }
-.contact--popup--wrapper input{
-    display: none !important;
-}
