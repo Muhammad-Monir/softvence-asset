@@ -4085,3 +4085,13 @@ footer {
     -ms-transform: translateY(0);
     transform: translateY(0)
 }
+
+.contact--popup--wrapper .pop--interest--group span{
+    line-height:  normal !important;
+    color: var(--white) !important;
+}
+
+.contact--popup--wrapper .btn--area .button{
+    border-radius: 60px !important;
+    border:none !important;
+}
