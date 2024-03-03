@@ -351,16 +351,17 @@
             document.addEventListener("contextmenu", function (e) {}),
             document.addEventListener("keydown", function (e) {});
 
-            function categoryhandle(){
+            function categoryhandle() {
                 var categories = document.querySelectorAll('.contact--popup--wrapper .pop--interest--group label');
-
+                console.log(categories);
+            
                 categories.forEach((categori) => {
-                    categori.addEventListener('click', ()=> {
-                        // this.style.backgroundColor = "#00ab0c";
+                    categori.addEventListener('click', function() {
                         this.classList.toggle('active');
-                    })
+                    });
                 });
             }
+            
             categoryhandle();
     });
 })(jQuery);
