@@ -4095,3 +4095,6 @@ footer {
     border-radius: 60px !important;
     border:none !important;
 }
+.contact--popup--wrapper .wpcf7-response-output{
+    color: var(--white) !important;
+}
