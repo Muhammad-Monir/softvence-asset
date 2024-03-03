@@ -359,7 +359,12 @@
                     console.log(categori);
                     categori.addEventListener('click', (e) => {
                         var current = e.target;
-                        current.classList.add('active');
+                        if(current.classList.contains('active')){
+                            current.classList.remove('active'); 
+                        }else{
+                            current.classList.add('active');
+                        }
+                        
                     });
                 });
             }
